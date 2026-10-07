@@ -1,0 +1,22 @@
+# ========== Python source code ==========
+recursive-include core *.py
+include converter.py
+
+# ========== Data files ==========
+recursive-include templates *.html *.css *.js
+recursive-include static *.css *.js *.png *.jpg *.ico
+include config/*.yaml
+include config/*.json
+
+# ========== Documentation ==========
+include README.md
+include LICENSE
+
+# ========== Packaging files ==========
+include setup.py
+include requirements.txt
+
+# ========== Exclude unwanted ==========
+# (optional) exclude .env, test files, etc.
+exclude .env
+recursive-exclude tests *.py
