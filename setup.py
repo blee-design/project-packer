@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="project-packer",
-    version="2.0.1",
+    version="2.0.2",
     description="Pack any Python project into a single file for AI sharing, respecting setup.py and MANIFEST.in",
     long_description=open("README.md", "r", encoding="utf-8").read() if __import__("os").path.exists("README.md") else "",
     long_description_content_type="text/markdown",
