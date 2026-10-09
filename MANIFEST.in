@@ -1,0 +1,15 @@
+# Python source
+include packer.py
+include setup.py
+
+# Documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+recursive-include docs *
+
+# Example manifest
+include MANIFEST_Sample.in
+
+# Build system
+include Makefile

@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Udaya Raj Joshi",
     author_email="udayarajjoshi@aol.com",
-    url="https://github.com/blee-design/lecture-manager.git",
+    url="https://github.com/blee-design/project-packer",
     py_modules=["packer"],  # because it's a single module
     entry_points={
         "console_scripts": [
